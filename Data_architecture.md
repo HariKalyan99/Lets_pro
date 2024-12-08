@@ -89,9 +89,6 @@ In technical terms, when a user makes a request on a website, various components
 **Business Layer**: 
 It is also referred to as a Business Logic or Domain Logic or Application Layer. It accepts the user’s request from the browser, processes it, and regulates the routes through which the data will be accessed. The whole workflow is encoded in this layer. You can take the example of booking a hotel on a website. A traveler will go through a sequence of events to book the hotel room and the whole workflow will be taken care of by the business logic. 
 
-
-![layer2](https://stratus10.com/sites/default/files/styles/max_2600x2600/public/2024-08/Components-of-aws-3-tier-network-architecture.jpg.webp?itok=Shrcial_)
-
 **Persistence Layer**: 
 - It is also referred to as a storage or data access layer. This layer collects all the data calls and provides access to the persistent storage of an application. The business layer is closely attached to the persistence layer, so the logic knows which database to talk to and the process of retrieving data becomes more optimized. A server and a database management system software exist in data storage infrastructure which is used to communicate with the database itself, applications, and user interfaces to retrieve data and parse it. You can store the data in hardware servers or in the cloud.
 
